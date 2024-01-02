@@ -85,6 +85,7 @@ export default function TaskForm({ setTasks }) {
                 className="task_status"
                 onChange={handleDataChange}
               >
+                <option value="select">Select task status</option>
                 <option value="todo">To do</option>
                 <option value="doing">Doing</option>
                 <option value="done">Done</option>
